@@ -28,7 +28,7 @@
 # Usage:
 #   1. Set INPUT_DIR to the folder containing your ASD CSV files.
 #   2. Optionally set CLIP_TO_0_1 = True to clamp reflectance values to [0, 1].
-#   3. Run: python ASD_folder_relative_to_abs95.py
+#   3. Run: python abs_ref.py
 #
 # Notes:
 #   The correction formula is: Reflectance_abs95 = Reflectance * 0.95
