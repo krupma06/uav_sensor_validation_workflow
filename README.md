@@ -440,7 +440,6 @@ python vignetting_correction.py
 - If no band token is found in the filename, the image is grouped into band `ALL`.
 - All flat-field images belonging to one band must have the same raster size.
 - The safest output type before ELM calibration is `float32`, because corrected DN values are not clipped to the original integer range.
-- Saturated pixels cannot be reconstructed by vignetting correction, because the original radiometric information is already lost.
 - The script does not apply an artificial maximum correction factor; invalid, zero, or negative mask values are replaced by `1.0` to avoid division by zero.
 
 ---
@@ -752,7 +751,6 @@ This layout is only a suggestion. The scripts themselves work from whatever path
 - Verify that the input files are single-band TIFF images.
 - If Gaussian smoothing is enabled, install `scipy` or set `gaussian_sigma = 0`.
 - Check that flat-field and target images have the same raster size within each band.
-- Remember that saturated pixels cannot be reconstructed by the correction.
 
 ---
 
