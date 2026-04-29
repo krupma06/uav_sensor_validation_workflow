@@ -47,7 +47,6 @@
 #       _MS_G, _MS_R, _MS_RE, _MS_NIR
 #   - If no band token is found, images are grouped into band "ALL".
 #   - All flat-field images belonging to one band must have the same raster size.
-#   - Saturated pixels cannot be reconstructed by vignetting correction.
 #   - No artificial maximum correction factor is applied. The full mask-derived
 #     correction is used, except for invalid or zero mask values, which are
 #     replaced by 1.0 to avoid division by zero.
