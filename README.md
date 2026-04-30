@@ -5,6 +5,7 @@ This repository contains Python and R scripts used within the master’s thesis:
 **Thesis title:** *Verification of Spectral, Radiometric, and Geometric Properties of DJI Mavic 3M, Matrice 4E, and Matrice 4T Devices*  
 **Institution:** Palacký University, Department of Geoinformatics, Olomouc  
 **Author:** Martin KRUPIČKA
+**E-mail:** martinkrupka01@seznam.cz
 
 The scripts cover:
 - ASD spectrometer post-processing,
